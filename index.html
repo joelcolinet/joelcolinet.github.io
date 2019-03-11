@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<title>La Vague Noire</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<link rel="stylesheet" href="theme/css/site.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/site.js"></script>
+
+
+<body class="">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <span cible="home" class="w3-bar-item w3-button menuButton">ACCUEIL</span>
+    <span cible="about" class="w3-bar-item w3-button w3-hide-small menuButton"><i class="fa fa-user"></i> A PROPOS</span>
+    <span cible="gaming" class="w3-bar-item w3-button w3-hide-small menuButton"><i class="fa fa-th"></i> GAMING</span>
+    <span cible="contact" class="w3-bar-item w3-button w3-hide-small menuButton"><i class="fa fa-envelope"></i> NOUS TROUVER</span>
+    <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>-->
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <span href="#" cible="about" class="w3-bar-item w3-button menuButton" onclick="toggleFunction()">A PROPOS</span>
+    <span href="#" cible="gaming" class="w3-bar-item w3-button menuButton" onclick="toggleFunction()">GAMING</span>
+    <span href="#" cible="contact" class="w3-bar-item w3-button menuButton" onclick="toggleFunction()">NOUS TROUVER</span>
+    <!--<a href="#" class="w3-bar-item w3-button">RECHERCHE</a>-->
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg bgimg-1 w3-display-container" id="home">
+  <div class="logoImg w3-display-middle" style="white-space:nowrap;">
+    <!--<span class="w3-center w3-padding-large w3-white w3-xlarge w3-wide w3-animate-opacity">LA VAGUE NOIRE</span>-->
+  </div>
+  <div class="iconeDown">
+    <span href="#" cible="about" onclick="toggleFunction()" class="menuButton"><i class="fa fa-angle-down"></i></span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">A PROPOS DE NOUS</h3>
+  <p class="w3-center"><em>Une famille de folies</em></p>
+  <p>Depuis presque dix ans, La bande de fous de La Vague Noire s'aventure de jeux en jeux pour découvrir, s'amuser et casser des culs (poliment) entre amis, dans la joie et la bonne humeur (et le sel).
+</p>
+<p>Nous nous sommes enfin décidé à partager nos aventures avec tout le monde et à créer un projet autour de nos délires!
+Rejoignez nous dans nos histoires de bande de fous, en live, sur Youtube et même dans le livre de notre Chrysse nationale avec Les Récits de La Vague Noire!
+</p>
+
+  <div class="w3-row">
+    <div class="w3-col m2 w3-center w3-padding-large">
+      <img src="theme/images/godarm.png" class="w3-round w3-image rotate-left" alt="Photo of Me" width="150" height="150">
+    </div>
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m10 w3-hide-small">
+      <b><i class="fa fa-user w3-margin-right"></i>Godarm</b>
+      <p class="noobDescription">Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col m2 w3-center w3-padding-large">
+      <img src="theme/images/zarsh.png" class="w3-round w3-image rotate-left" alt="Photo of Me" width="150" height="150">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m10 w3-hide-small">
+      <b><i class="fa fa-user w3-margin-right"></i>Zarsh</b>
+      <p class="noobDescription">Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col m2 w3-center w3-padding-large">
+      <img src="theme/images/mystii.png" class="w3-round w3-image rotate-left" alt="Photo of Me" width="150" height="150">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m10 w3-hide-small">
+      <b><i class="fa fa-user w3-margin-right"></i>Mystii / Lelouch</b>
+      <p class="noobDescription">Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col m2 w3-center w3-padding-large">
+      <img src="theme/images/al.png" class="w3-round w3-image rotate-left" alt="Photo of Me" width="150" height="150">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m10 w3-hide-small">
+      <b><i class="fa fa-user w3-margin-right"></i>Al / Alinka / Rale</b>
+      <p class="noobDescription">Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col m2 w3-center w3-padding-large">
+      <img src="theme/images/cret.png" class="w3-round w3-image rotate-left" alt="Photo of Me" width="150" height="150">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m10 w3-hide-small">
+      <b><i class="fa fa-user w3-margin-right"></i>Cret</b>
+      <p class="noobDescription">Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col m2 w3-center w3-padding-large">
+      <img src="theme/images/avatar-1.jpg" class="w3-round w3-image rotate-left" alt="Photo of Me" width="150" height="150">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m10 w3-hide-small">
+      <b><i class="fa fa-user w3-margin-right"></i>Aka</b>
+      <p class="noobDescription">Surnommée aussi Akatastrophe ou Akalamitée, porte très bien son nom puisqu'elle est toujours dans les mauvais coups...râtés ! Elle est souvent dans la lune, mais son côté maman autoritaire prend parfois le dessus, elle sait prendre les choses en main et fait luire des griffes acérées (la meuf s'evoie des fleurs^^). Un peu niaise, elle anime les discussions à base de "trop chou!" décalés et voit toujours le bon côté des choses.</p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col m2 w3-center w3-padding-large">
+      <img src="theme/images/avatar-1.jpg" class="w3-round w3-image rotate-left" alt="Photo of Me" width="150" height="150">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m10 w3-hide-small">
+      <b><i class="fa fa-user w3-margin-right"></i>Jacqueline (C'est pas son vrai prénom ^^)</b>
+      <p class="noobDescription">Spécimen au comportement instable et passablement dangereux. Sait ce qu'elle ne veut pas mais pas toujours ce qu'elle veut, en un mot paradoxale. A prendre avec des pincettes en toute circonstance., surtout si la lune est à huit. Le reste du temps un cookie vous assurera la meilleure copine du monde.</p>
+    </div>
+  </div>
+
+
+  <p class="w3-large w3-center w3-padding-16">On joue a:</p>
+  <p class="w3-wide"><i class="fa fa-users"></i>Des MMORPG</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:55%">55%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-bullseye"></i>Des FPS</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:30%">30%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-gamepad"></i>D'autres jeux</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:15%">15%</div>
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg bgimg-2 w3-display-container" id="gaming">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">GAMING</span>
+  </div>
+</div>
+
+<!-- Container (Games Section) -->
+<div class="w3-content w3-container w3-padding-64 games">
+  <h3 class="w3-center">NOS JEUX</h3>
+  <p class="w3-center"><em>Voici une liste de jeux auxquel nous jouons.</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <div class="container aion" title="Aion"></div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="container rocketleague" title="Rocket League"></div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="container apex" title="Apex Legends"></div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="container lol" title="League Of Legends"></div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <div class="container overwatch" title="Overwatch"></div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="container fortnite" title="Fortnite"></div>
+    </div>
+
+    <div class="w3-col m3">
+       <div class="container teso" title="The Elder Scroll Online"></div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="container trackmania" title="Trackmania"></div>
+    </div>
+    <!--<button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>-->
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg bgimg-3 w3-display-container" id="contact">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">OU NOUS TROUVER</span>
+  </div>
+</div>
+
+<!-- Container (Find Section) -->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+<h3 class="w3-center">NOS RESEAUX</h3>
+  <p class="w3-center"><em>Vous pouvez venir discuter avec nous sur <a href="https://discord.gg/NfZrjn8" target="_blank">discord</a>, nous regarder jouer sur <a href="https://www.twitch.tv/lavaguenoire" target="_blank">twitch</a>, nous suivre sur <a href="https://www.facebook.com/La-Vague-Noire-156606605029544/" target="_blank">facebook</a> et ne rien rater grâce à <a href="https://www.youtube.com/channel/UCrFLchxjrciDNp2PeRs0YUQ" target="_blank">youtube</a>.</em></p><br>
+  <div class="w3-row w3-padding-32">
+    <div class="w3-quarter">
+      <a href="https://discord.gg/NfZrjn8" target="_blank">
+        <p>Discord</p>
+        <img src="theme/images/discord.png" class="w3-round" style="width:60%">
+      </a>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://www.twitch.tv/lavaguenoire" target="_blank">
+        <p>Twitch</p>
+        <img src="theme/images/twitch.png" class="w3-round" style="width:60%">
+      </a>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://www.facebook.com/La-Vague-Noire-156606605029544/" target="_blank">
+        <p>Facebook</p>
+        <img src="theme/images/facebook.png" class="w3-round" style="width:55%">
+      </a>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://www.youtube.com/channel/UCrFLchxjrciDNp2PeRs0YUQ" target="_blank">
+        <p>Youtube</p>
+        <img src="theme/images/youtube.png" class="w3-round" style="width:60%">
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bgimg bgimg-footer w3-display-container w3-center w3-black w3-padding-64">
+  <span cible="home" class="w3-button w3-light-grey menuButton"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</span>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>La Vague Noire 2009 - 2019</p>
+</footer>
+
+</body>
+</html>
+
+<script type="text/javascript">
+  init();
+</script>
